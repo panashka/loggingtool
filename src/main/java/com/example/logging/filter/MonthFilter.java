@@ -5,6 +5,9 @@ import org.apache.commons.lang3.tuple.Pair;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 
+/**
+ * Month filter
+ */
 public class MonthFilter extends TimePeriodFilter {
     public MonthFilter(String parameter) {
         super(parameter);

@@ -10,6 +10,9 @@ import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.counting;
 import static java.util.stream.Collectors.groupingBy;
 
+/**
+ * Username grouping
+ */
 public class UsernameGroup extends Group {
     @Override
     public Map<String, Long> group(Path path) {

@@ -4,7 +4,9 @@ import java.nio.file.Path;
 import java.time.ZoneId;
 import java.util.Map;
 
-
+/**
+ * Month grouping
+ */
 public class MonthGroup extends TimePeriodGroup {
     @Override
     public Map<String, Long> group(Path path) {

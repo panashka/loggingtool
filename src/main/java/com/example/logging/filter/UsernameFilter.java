@@ -1,7 +1,7 @@
 package com.example.logging.filter;
 
 /**
- * Username test
+ * Username filter
  */
 public class UsernameFilter extends Filter {
     public UsernameFilter(String parameter) {

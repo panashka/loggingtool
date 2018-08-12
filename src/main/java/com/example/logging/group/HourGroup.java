@@ -5,6 +5,9 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Map;
 
+/**
+ * Hour grouping
+ */
 public class HourGroup extends TimePeriodGroup {
     @Override
     public Map<String, Long> group(Path path) {

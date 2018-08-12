@@ -1,7 +1,7 @@
 package com.example.logging.filter;
 
 /**
- * Created by ux501 on 11.08.2018.
+ * Abstract filter
  */
 public abstract class Filter {
     protected String parameter;

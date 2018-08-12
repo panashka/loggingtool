@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 
 /**
- * Created by ux501 on 11.08.2018.
+ * Hour filter
  */
 public class HourFilter extends TimePeriodFilter {
     public HourFilter(String parameter) {

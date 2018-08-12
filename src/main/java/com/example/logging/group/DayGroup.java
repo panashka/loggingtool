@@ -4,6 +4,9 @@ import java.nio.file.Path;
 import java.time.ZoneId;
 import java.util.Map;
 
+/**
+ * Day grouping
+ */
 public class DayGroup extends TimePeriodGroup {
     @Override
     public Map<String, Long> group(Path path) {
